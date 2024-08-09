@@ -1,7 +1,21 @@
+"use client";
+
 import Link from "next/link";
 import Logo from "./Logo";
+import React from "react";
+import { useEffect } from "react";
+
 
 export default function Navbar() {
+
+  function toggleMode() {
+    const isChecked = document.getElementById("toggle").checked;
+    document.documentElement.classList.toggle("dark", isChecked);
+  }
+  useEffect(() => {
+    toggleMode();
+  }, []);
+
   return (
     
     <>
@@ -51,7 +65,7 @@ export default function Navbar() {
               </ul>
             </div>
             <div className="justify-between md:space-x-8 rtl:space-x-reverse hidden w-full md:flex md:w-auto md:order-1 dark:text-white text-zinc-900">
-              <input id="toggle" className="toggle" type="checkbox" />
+              <input id="toggle" className="toggle" type="checkbox" onClick={toggleMode}/>
               <button>English</button>
             </div>
           </div>
