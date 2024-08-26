@@ -1,111 +1,63 @@
 export default function Experience() {
     return (
         <section  className="dark:bg-zinc-900 bg-white py-16 pb-6">
-            <div className="max-w-7xl mx-auto p-4 sm:p-6 lg:p-8">
-                <div className="container mx-auto px-6 p-6">
-                    <div className="mb-16 text-center">
-                        <p className="mt-2 text-5xl lg:text-7xl font-bold tracking-tight dark:text-white text-gray-900">Experience</p>
-                    </div> 
-                    <div className="flex flex-wrap my-12">
-
-
-                        <div className="w-full border-b md:w-1/2 md:border-r lg:w-1/3 p-8">
-                            <div className="flex items-center mb-6">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="20" height="20"
-                                    fill="currentColor" className="h-6 w-6 text-red-200">
-                                    <path
-                                        d="M16 3C8.8 3 3 8.8 3 16s5.8 13 13 13 13-5.8 13-13c0-1.398-.188-2.793-.688-4.094L26.688 13.5c.2.8.313 1.602.313 2.5 0 6.102-4.898 11-11 11S5 22.102 5 16 9.898 5 16 5c3 0 5.695 1.195 7.594 3.094L25 6.688C22.7 4.386 19.5 3 16 3zm11.281 4.281L16 18.563l-4.281-4.282-1.438 1.438 5 5 .719.687.719-.687 12-12z">
-                                    </path>
-                                </svg>
-                                <div className="ml-4 text-xl">Recogidos</div>
-                            </div>
-                            <p className="leading-loose text-gray-500">Consectetur pariatur irure exercitation sit amet id
-                                consectetur consecteturmagna et Lorem labore qui velit.
-                            </p>
+            <div className="dark:text-white text-black p-8 min-h-screen max-w-2xl md:max-w-3xl lg:max-w-4xl mx-auto duration-1000 delay-300 select-none ease animate-fade-in-view">
+                <div className="text-center px-4 py-16 mx-auto max-w-7xl">
+                    <p className="mt-2 text-5xl lg:text-7xl font-bold tracking-tight dark:text-white text-gray-900">
+                        🚀 Work experience
+                    </p>
+                </div>
+                <div>
+                    {/* Experience 1 */}
+                    <div className="relative pl-10">
+                        <div className="absolute left-0 top-0 h-full w-0.5 dark:bg-white bg-gray-700"></div>
+                        <div className="absolute left-[-13px] top-1 bg-blue-500 p-1.5 rounded-full">
+                            <svg className="w-4 h-4 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7H5a2 2 0 0 0-2 2v4m5-6h8M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2m0 0h3a2 2 0 0 1 2 2v4m0 0v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-6m18 0s-4 2-9 2-9-2-9-2m9-2h.01"/>
+                            </svg>
                         </div>
-
-
-
-                        <div className="w-full border-b md:w-1/2 lg:w-1/3 lg:border-r p-8">
-                            <div className="flex items-center mb-6">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="20" height="20"
-                                    fill="currentColor" className="h-6 w-6 text-red-200">
-                                    <path
-                                        d="M16 3C8.8 3 3 8.8 3 16s5.8 13 13 13 13-5.8 13-13c0-1.398-.188-2.793-.688-4.094L26.688 13.5c.2.8.313 1.602.313 2.5 0 6.102-4.898 11-11 11S5 22.102 5 16 9.898 5 16 5c3 0 5.695 1.195 7.594 3.094L25 6.688C22.7 4.386 19.5 3 16 3zm11.281 4.281L16 18.563l-4.281-4.282-1.438 1.438 5 5 .719.687.719-.687 12-12z">
-                                    </path>
-                                </svg>
-                                <div className="ml-4 text-xl">Peinados</div>
-                            </div>
-                            <p className="leading-loose text-gray-500">Labore duis pariatur est exercitation laboris cupidatat amet
-                                cillum. Amet nisi ullamco.
-                            </p>
+                        <h3 className="text-xl font-bold text-blue-400">Freelance</h3>
+                        <p className="text-gray-400">Sep, 2023 - Actual</p>
+                        <p className="mt-2 text-gray-300">
+                            I am currently working as a free programmer, expanding the website
+                            and blog of this website, studying and getting deeper and deeper
+                            into the world of programming.
+                        </p>
+                    </div>
+                    {/* Experience 2 */}
+                    <div className="relative pl-10 pt-4">
+                        <div className="absolute left-0 top-0 h-full w-0.5 dark:bg-white bg-gray-700"></div>
+                        <div className="absolute left-[-13px] top-1 bg-blue-500 p-1.5 rounded-full">
+                            <svg className="w-4 h-4 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7H5a2 2 0 0 0-2 2v4m5-6h8M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2m0 0h3a2 2 0 0 1 2 2v4m0 0v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-6m18 0s-4 2-9 2-9-2-9-2m9-2h.01"/>
+                            </svg>
                         </div>
-
-
-
-                        <div className="w-full border-b md:w-1/2 md:border-r lg:w-1/3 lg:border-r-0 p-8">
-                            <div className="flex items-center mb-6">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="20" height="20"
-                                    fill="currentColor" className="h-6 w-6 text-red-200">
-                                    <path
-                                        d="M16 3C8.8 3 3 8.8 3 16s5.8 13 13 13 13-5.8 13-13c0-1.398-.188-2.793-.688-4.094L26.688 13.5c.2.8.313 1.602.313 2.5 0 6.102-4.898 11-11 11S5 22.102 5 16 9.898 5 16 5c3 0 5.695 1.195 7.594 3.094L25 6.688C22.7 4.386 19.5 3 16 3zm11.281 4.281L16 18.563l-4.281-4.282-1.438 1.438 5 5 .719.687.719-.687 12-12z">
-                                    </path>
-                                </svg>
-                                <div className="ml-4 text-xl">Coloración</div>
-                            </div>
-                            <p className="leading-loose text-gray-500">Elit deserunt nisi esse duis cupidatat proident sit minim
-                                mollit officia pariatur incididunt in tempor.
-                            </p>
+                        <h3 className="text-xl font-bold text-blue-400">STP GROUP</h3>
+                        <p className="text-gray-400">May, 2023 - Actual</p>
+                        <p className="mt-2 text-gray-300">
+                            I was lead programmer and supporter in the creation of a private
+                            application to manage the inputs and outputs of a chicken farm
+                            called Granjas Viloria. The application was developed in Kotlin and
+                            had a record of invoices, their proper printing in PDF and a simple
+                            TODO. Due to privacy and the lack of publication in stores, the
+                            project cannot be shown at the moment.
+                        </p>
+                    </div>
+                    {/* Experience 3 */}
+                    <div className="relative pl-10 pt-4">
+                        <div className="absolute left-0 top-0 h-full w-0.5 dark:bg-white bg-gray-700"></div>
+                        <div className="absolute left-[-13px] top-1 bg-blue-500 p-1.5 rounded-full">
+                            <svg className="w-4 h-4 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7H5a2 2 0 0 0-2 2v4m5-6h8M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2m0 0h3a2 2 0 0 1 2 2v4m0 0v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-6m18 0s-4 2-9 2-9-2-9-2m9-2h.01"/>
+                            </svg>
                         </div>
-
-
-
-                        <div className="w-full border-b md:w-1/2 lg:w-1/3 lg:border-r lg:border-b-0 p-8">
-                            <div className="flex items-center mb-6">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="20" height="20"
-                                    fill="currentColor" className="h-6 w-6 text-red-200">
-                                    <path
-                                        d="M16 3C8.8 3 3 8.8 3 16s5.8 13 13 13 13-5.8 13-13c0-1.398-.188-2.793-.688-4.094L26.688 13.5c.2.8.313 1.602.313 2.5 0 6.102-4.898 11-11 11S5 22.102 5 16 9.898 5 16 5c3 0 5.695 1.195 7.594 3.094L25 6.688C22.7 4.386 19.5 3 16 3zm11.281 4.281L16 18.563l-4.281-4.282-1.438 1.438 5 5 .719.687.719-.687 12-12z">
-                                    </path>
-                                </svg>
-                                <div className="ml-4 text-xl">Corte Profesional</div>
-                            </div>
-                            <p className="leading-loose text-gray-500">Velit sit tempor pariatur quis pariatur incididunt culpa
-                                dolor voluptate officia incididunt velit dolore.
-                            </p>
-                        </div>
-
-
-
-                        <div className="w-full border-b md:w-1/2 md:border-r md:border-b-0 lg:w-1/3 lg:border-b-0 p-8">
-                            <div className="flex items-center mb-6">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="20" height="20"
-                                    fill="currentColor" className="h-6 w-6 text-red-200">
-                                    <path
-                                        d="M16 3C8.8 3 3 8.8 3 16s5.8 13 13 13 13-5.8 13-13c0-1.398-.188-2.793-.688-4.094L26.688 13.5c.2.8.313 1.602.313 2.5 0 6.102-4.898 11-11 11S5 22.102 5 16 9.898 5 16 5c3 0 5.695 1.195 7.594 3.094L25 6.688C22.7 4.386 19.5 3 16 3zm11.281 4.281L16 18.563l-4.281-4.282-1.438 1.438 5 5 .719.687.719-.687 12-12z">
-                                    </path>
-                                </svg>
-                                <div className="ml-4 text-xl">Cera</div>
-                            </div>
-                            <p className="leading-loose text-gray-500">Laboris elit consectetur sint nisi eu mollit proident sit
-                                magna velit adipisicing consequat amet reprehenderit.
-                            </p>
-                        </div>
-
-                        <div className="w-full md:w-1/2 lg:w-1/3 p-8">
-                            <div className="flex items-center mb-6">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="20" height="20"
-                                    fill="currentColor" className="h-6 w-6 text-red-200">
-                                    <path
-                                        d="M16 3C8.8 3 3 8.8 3 16s5.8 13 13 13 13-5.8 13-13c0-1.398-.188-2.793-.688-4.094L26.688 13.5c.2.8.313 1.602.313 2.5 0 6.102-4.898 11-11 11S5 22.102 5 16 9.898 5 16 5c3 0 5.695 1.195 7.594 3.094L25 6.688C22.7 4.386 19.5 3 16 3zm11.281 4.281L16 18.563l-4.281-4.282-1.438 1.438 5 5 .719.687.719-.687 12-12z">
-                                    </path>
-                                </svg>
-                                <div className="ml-4 text-xl">Decoloracion</div>
-                            </div>
-                            <p className="leading-loose text-gray-500">Nostrud excepteur incididunt proident sit nulla ipsum sunt
-                                nostrud est esse adipisicing irure officia consectetur.
-                            </p>
-                        </div>
+                        <h3 className="text-xl font-bold text-blue-400">Starting...</h3>
+                        <p className="text-gray-400">Feb 2019</p>
+                        <p className="mt-2 text-gray-300">
+                            I started web development from a programming class at the UPC school
+                            where I was. From that moment on my life has revolved around web
+                            programming, Android applications and more.
+                        </p>
                     </div>
                 </div>
             </div>

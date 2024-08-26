@@ -28,15 +28,14 @@ export default function Skills() {
                             "python.png",
                             "r.png",
                             "Scikit_learn.png",
-                            "numpy.png",
-                            "python.png",
-                            "r.png",
-                            "Scikit_learn.png",
+                            "lang.png",
+                            "type.png",
+                            "node.png",
+                            "tf.png",
                         ].map((image, index) => (
                             <div
                                 key={index}
-                                className="dark:bg-zinc-900 bg-white mb-4 md:mb-12 h-16 w-16 flex items-center justify-center shadow-lg aspect-square"
-                            >
+                                className="dark:bg-zinc-900 bg-white mb-4 md:mb-12 h-16 w-16 flex items-center justify-center shadow-lg aspect-square p-4 rounded-lg">
                                 <Image
                                     src={`/images/toolbox/${image}`}
                                     alt="Logo"

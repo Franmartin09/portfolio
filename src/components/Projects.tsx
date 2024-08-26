@@ -11,23 +11,22 @@ export default function Projects() {
   };
 
   const projects = [
-    { src: "/images/work/pe1.png", alt: "Tahe", category: "design" },
-    { src: "/images/work/pe2.png", alt: "Tahe", category: "development" },
-    { src: "/images/work/pe5.png", alt: "Tahe", category: "branding" },
-    { src: "/images/work/pe3.png", alt: "Tahe", category: "marketing" },
-    { src: "/images/work/pe7.png", alt: "Tahe", category: "design" },
-    { src: "/images/work/pe4.png", alt: "Tahe", category: "branding" },
-    { src: "/images/work/pe6.png", alt: "Tahe", category: "marketing" },
-    { src: "/images/work/pe8.png", alt: "Tahe", category: "development" },
-    { src: "/images/work/pe9.png", alt: "Tahe", category: "branding" },
-    { src: "/images/work/pe10.png", alt: "Tahe", category: "design" },
+    { src: "/images/work/hero.png", alt: "Tahe", category: "design" },
+    { src: "/images/work/hero.png", alt: "Tahe", category: "design" },
+    { src: "/images/work/hero.png", alt: "Tahe", category: "development" },
+    { src: "/images/work/hero.png", alt: "Tahe", category: "branding" },
+    { src: "/images/work/hero.png", alt: "Tahe", category: "marketing" },
+    { src: "/images/work/hero.png", alt: "Tahe", category: "design" },
+    { src: "/images/work/hero.png", alt: "Tahe", category: "branding" },
+    { src: "/images/work/hero.png", alt: "Tahe", category: "marketing" },
+    { src: "/images/work/hero.png", alt: "Tahe", category: "development" },
   ];
 
   return (
-    <div id="work" className="dark:bg-zinc-900 bg-white">
+    <div id="work" className="dark:bg-zinc-900 bg-white pb-10">
 
         <div className="text-center px-4 py-16 mx-auto max-w-7xl">
-          <p className="mt-2 text-5xl lg:text-7xl font-bold tracking-tight text-gray-900">
+          <p className="mt-2 text-5xl lg:text-7xl font-bold tracking-tight dark:text-white text-gray-900">
             Trabajo
           </p>
         </div>
@@ -100,11 +99,11 @@ export default function Projects() {
 
       {/* Projects Gallery */}
       <section>
-        <div className="max-w-2xl md:max-w-4xl lg:max-w-6xl mx-auto duration-1000 delay-300 select-none ease animate-fade-in-view">
+        <div className="max-w-2xl md:max-w-3xl lg:max-w-4xl mx-auto duration-1000 delay-300 select-none ease animate-fade-in-view">
           <ul
             x-ref="gallery"
             id="gallery"
-            className="grid grid-cols-2 gap-5 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5"
+            className="grid gap-3 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
           >
             {projects
               .filter(
@@ -115,9 +114,9 @@ export default function Projects() {
                   <Image
                     src={project.src}
                     alt={project.alt}
-                    className="h-full w-full object-cover object-center hover:opacity-75 hover:scale-105 transition-all duration-300"
-                    width={150}
-                    height={500}
+                    className="h-full w-full rounded-lg object-cover object-center hover:opacity-75 hover:scale-105 transition-all duration-300"
+                    width={400}
+                    height={100}
                     priority
                   />
                 </li>
