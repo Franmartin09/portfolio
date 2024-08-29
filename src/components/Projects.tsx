@@ -1,4 +1,4 @@
-"use client"; // <-- Añade esto al principio
+"use client";
 
 import React, { useState } from "react";
 import Image from "next/image";
@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function Projects() {
   const [showCard, setShowCard] = useState("all");
 
-  const handleProject = (category) => {
+  const handleProject = (category : string) => {
     setShowCard(category);
   };
 
